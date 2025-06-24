@@ -1,4 +1,4 @@
-import 'package:exampleforpackage/example/VideoPlayerRepo/VideoHomePage.dart';
+import 'example/VideoPlayerRepo/VideoHomePage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -208,9 +208,8 @@ class _VideoPlayerKBState extends State<VideoPlayerKB> {
                           //     .videoUrl
                         ).then((value) => setShareBtnState(() {
                               showShareBtnLoader = false;
-                              Share.shareWithResult(
-                                value,
-                                subject: shortClipModel.title,
+                              SharePlus.instance.share(
+                                ShareParams(text: value, title: shortClipModel.title),
                               ).then((value) {
                                 //  podPlayerController.play()
                               });
